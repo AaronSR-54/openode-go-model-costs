@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "OpenCode plugin that shows LLM model costs in the sidebar",
   "license": "MIT",
+  "repository": "AaronSR-54/openode-go-model-costs",
   "type": "module",
   "exports": {
     ".": {
