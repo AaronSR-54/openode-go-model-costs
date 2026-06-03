@@ -77,7 +77,7 @@ function SidebarContentView(props: { api: TuiPluginApi; items: CostItem[]; basel
     <Show when={props.items.length > 0}>
       <box gap={0}>
         <box flexDirection="row" justifyContent="space-between">
-          <text fg={props.api.theme.current.text}><b>Coste Go</b></text>
+          <text fg={props.api.theme.current.text}><b>Cost Go</b></text>
           <text fg={props.api.theme.current.textMuted}>$/1M tok</text>
         </box>
         <box gap={0}>
