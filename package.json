@@ -1,11 +1,14 @@
 {
-  "name": "openode-go-model-costs",
+  "name": "@aaronsr-54/openode-go-model-costs",
   "version": "1.0.5",
-  "description": "OpenCode plugin that shows LLM model costs in the sidebar",
+  "description": "OpenCode TUI plugin that shows relative cost multipliers for Go provider models in the sidebar",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AaronSR-54/openode-go-model-costs.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "type": "module",
   "exports": {
