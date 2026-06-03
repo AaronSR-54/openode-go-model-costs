@@ -134,7 +134,7 @@ const tui = async (api: TuiPluginApi) => {
         value: "model-costs.toggle",
         description: "Show/hide the Go model costs sidebar",
         category: "Model Costs",
-        keybind: "ctrl+g,c",
+
         slash: { name: "toggle-costs" },
         onSelect: () => toggle(),
       },
