@@ -1,6 +1,6 @@
 {
   "name": "model-costs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "OpenCode plugin that shows LLM model costs in the sidebar",
   "license": "MIT",
   "repository": {
