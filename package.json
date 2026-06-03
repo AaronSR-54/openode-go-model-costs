@@ -1,0 +1,31 @@
+{
+  "name": "model-costs",
+  "version": "1.0.1",
+  "description": "OpenCode plugin that shows LLM model costs in the sidebar",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./server.js"
+    },
+    "./tui": {
+      "default": "./tui.tsx"
+    }
+  },
+  "oc-plugin": [
+    "server",
+    "tui"
+  ],
+  "dependencies": {
+    "@opentui/solid": ">=0.2.16",
+    "solid-js": "^1.9.12"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.4.3"
+  },
+  "files": [
+    "server.js",
+    "tui.tsx",
+    "package.json"
+  ]
+}
